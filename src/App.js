@@ -1,24 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./Components/Header";
+import Hero from "./Components/Hero";
+import Features from "./Components/Features";
+import Inventory from "./Components/Inventory";
+import CTA from "./Components/CTA";
+import Footer from "./Components/Footer";
+import Donate from './Components/Donate';
+import Request from './Components/Request';
+import Track from './Components/Track';
+import Donorcard from './Components/Donorcard';
+import ContactDonor from './Components/ContactDonor';
+
+import Rewards from './Components/Rewards';
+import Donortiers from './Components/Donortiers';
+import Donation from './Components/Donation';
+import Login from './Components/Login';
+import Signup from './Components/Signup';
+import Registration from './Components/Registration';
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Hero />
+      <Features />
+      <Inventory />
+      <CTA/>
+      <Footer/>
+      <Donate/>
+      <Request/>
+      <Track/>
+      <Donorcard/>
+      <ContactDonor/>
+      <Rewards/>
+      <Donortiers/>
+      <Donation/>
+      <Login/>
+      <Signup/>
+      <Registration/>
+    </>
   );
 }
 

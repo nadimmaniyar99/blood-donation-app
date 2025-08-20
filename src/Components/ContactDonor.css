@@ -1,0 +1,91 @@
+.contact-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+
+.call-btn {
+  background-color: white;
+  border: 1px solid #ddd;
+}
+
+.message-btn {
+  background-color: #d80000;
+  color: white;
+}
+
+.messages {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: #fff;
+}
+
+h3 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.message {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.message.left {
+  flex-direction: row;
+}
+
+.message.right {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  background-color: #eee;
+  border-radius: 50%;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+  font-size: 0.85rem;
+}
+
+.text {
+  background-color: #f1f1f1;
+  padding: 0.6rem 0.9rem;
+  border-radius: 10px;
+  max-width: 75%;
+}
+
+.text.reply {
+  background-color: #fde2e2;
+}
+.phone-number {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  color: #333;
+  background-color: #e6f4ea;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  display: inline-block;
+}
+

@@ -1,0 +1,131 @@
+.donor-container {
+    font-family: sans-serif;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .donor-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .donor-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 20px;
+  }
+  
+  .donor-tier {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .donation-progress {
+    background-color: #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 8px;
+    height: 10px;
+  }
+  
+  .donation-bar {
+    width: 62.5%;
+    background-color: #000;
+    height: 100%;
+  }
+  
+  .donation-info {
+    font-size: 0.9rem;
+    color: #444;
+    margin-top: 4px;
+  }
+  
+  .tab-section {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+  }
+  
+  .tab {
+    flex: 1;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    background: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .points-display {
+    margin-left: auto;
+    padding: 10px;
+    color: red;
+    font-weight: bold;
+  }
+  
+  .rewards-heading {
+    margin-top: 30px;
+  }
+  
+  .rewards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 10px;
+  }
+  
+  .reward-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    background-color: #fff;
+  }
+  
+  .reward-card.disabled {
+    background-color: #f9f9f9;
+    opacity: 0.5;
+  }
+  
+  .reward-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .reward-points {
+    background-color: #000;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+  }
+  
+  .reward-description {
+    font-size: 0.9rem;
+    margin: 8px 0;
+  }
+  
+  .redeem-button {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .redeem-button.disabled {
+    background-color: #eee;
+    color: #999;
+    cursor: not-allowed;
+  }
+  

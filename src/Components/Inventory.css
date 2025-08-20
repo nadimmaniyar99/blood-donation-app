@@ -1,0 +1,35 @@
+.inventory-section {
+    padding: 60px 80px;
+  }
+  
+  .inventory-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .inventory-header h2 {
+    font-size: 1.8rem;
+  }
+  
+  .inventory-header button {
+    background: #111;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .inventory-box {
+    border: 1px dashed #ccc;
+    border-radius: 12px;
+    padding: 40px;
+    min-height: 120px;
+    text-align: center;
+    color: #555;
+    font-size: 1rem;
+  }
+  

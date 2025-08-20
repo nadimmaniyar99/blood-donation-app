@@ -1,0 +1,129 @@
+/* Container styling */
+.donation-form-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  min-height: 473px;
+  box-sizing: border-box;
+}
+
+/* Form box */
+.donation-form {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 32px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+/* Heading styles */
+.donation-form h2 {
+    margin-right: 310px;
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.subtitle {
+  color: #6b7280;
+  margin-bottom: 24px;
+  font-size: 0.95rem;
+}
+
+/* Label styles */
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #111827;
+}
+
+/* Inputs & Select */
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  transition: border 0.2s;
+}
+
+input[type="text"]:focus,
+select:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+/* Checkbox group */
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  background-color: #f9fafb;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  margin-bottom: 24px;
+}
+
+.checkbox-container input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin-right: 12px;
+  accent-color: #111827;
+  cursor: pointer;
+}
+
+.checkbox-container label {
+  font-weight: 600;
+  margin: 0;
+  font-size: 0.95rem;
+  color: #111827;
+}
+
+/* Button group */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Back button */
+.back-button {
+  background-color: #ffffff;
+  border: 1px solid #d1d5db;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.back-button:hover {
+  background-color: #f3f4f6;
+}
+
+/* Submit button */
+.submit-button {
+  background-color: #c8102e;
+  color: #ffffff;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.submit-button:hover {
+  background-color: #a10e26;
+}

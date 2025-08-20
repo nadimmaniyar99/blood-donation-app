@@ -1,0 +1,98 @@
+.donate-container {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 1rem;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .form1-card {
+    height: 550px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: left;
+    margin-top: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  }
+  
+  .form1-card h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .form1-card p {
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  input {
+    width: 100%;
+    /* padding: 0.7rem; */
+    /* margin-bottom: 1rem; */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .input-row {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .input-row div {
+    flex: 1;
+  }
+  
+  .blood-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .blood-card {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .blood-card:hover {
+    border-color: #999;
+  }
+  
+  .blood-card.selected {
+    background-color: #fef2f2;
+    border-color: #dc2626;
+    color: #dc2626;
+    font-weight: bold;
+  }
+  
+  .continue-btn {
+    background-color:black;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    float: right;
+  }
+  

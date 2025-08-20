@@ -1,0 +1,72 @@
+.container {
+  max-width: 700px;
+  margin: 2rem auto;
+  font-family: sans-serif;
+}
+
+.card {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.donor-info {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  margin-right: 1.5rem;
+}
+
+.details .name {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.details .label {
+  color: #666;
+  margin-top: 2px;
+}
+
+.blood-tag {
+  display: inline-block;
+  background-color: #fde2e2;
+  color: #d33;
+  padding: 2px 8px;
+  font-size: 0.8rem;
+  border-radius: 10px;
+  margin-left: 8px;
+}
+
+.rating {
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+
+.stars {
+  color: gold;
+  margin-right: 6px;
+}
+
+.donation-details div {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+}
+
+.right {
+  font-weight: 500;
+}

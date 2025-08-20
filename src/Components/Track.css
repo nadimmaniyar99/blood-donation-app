@@ -1,0 +1,157 @@
+.tracker-container {
+    font-family: sans-serif;
+    max-width: 760px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .tracker-title {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .status-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .status-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .status-label {
+    font-weight: bold;
+  }
+  
+  .status-badge {
+    background-color: #f3e8ff;
+    color: #7e22ce;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+  }
+  
+  .status-bar {
+    margin-top: 15px;
+    height: 6px;
+    background-color: #e5e7eb;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .status-bar-progress {
+    height: 100%;
+    width: 60%;
+    background-color: black;
+    border-radius: 5px;
+  }
+  
+  .status-steps {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .status-step {
+    text-align: center;
+  }
+  
+  .step-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #e5e7eb;
+    color: white;
+  }
+  
+  .step-active {
+    background-color: black;
+  }
+  
+  .step-label {
+    font-size: 12px;
+    margin-top: 4px;
+  }
+  
+  .tab-container {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .tab-button {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #e5e7eb;
+    background-color: #f9fafb;
+  }
+  
+  .tab-active {
+    background-color: white;
+    font-weight: bold;
+  }
+  
+  .map-container {
+    height: 300px;
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #f87171;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .eta-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9fafb;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .manual-button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #e5e7eb;
+    background-color: white;
+  }
+  
+  .report-button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+    color:black;
+  }
+  
